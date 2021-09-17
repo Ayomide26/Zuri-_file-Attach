@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Attach file</title>
+    <style>
+        /* button {
+           
+            margin-top: 50px;
+            margin-left: 30px;
+            background-color: white;
+            border:none;
+           
+
+            
+            
+        }  */
+
+        .card1 {
+            position: absolute;
+            height: 463px;
+            width: 374px;
+            background-color: rgba(248, 248, 248, 1);
+            margin-top: 100px;
+
+
+        }
+
+        .box1 {
+
+            height: 263px;
+            width: 374px;
+        }
+
+        .p1 {
+            color: rgba(97, 96, 97, 1);
+            margin-top: 20px;
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            margin-left: 25px;
+
+        }
+
+        .p2 {
+            color: rgba(97, 96, 97, 1);
+
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            margin-left: 25px;
+
+        }
+
+        .box2 {
+
+            height: 130px;
+            width: 376px;
+        }
+
+        .product {
+            color: rgba(97, 96, 97, 1);
+            font-family: Lato;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+        }
+
+        .icon {
+            font-size: 20px;
+            color: rgba(97, 96, 97, 1);
+
+        }
+
+        .box3 {
+
+            background-color: rgba(248, 248, 248, 1);
+            display: flex;
+            border: none;
+            outline: none;
+
+        }
+
+        .box3:focus {
+            outline: none;
+
+        }
+
+        .box4 {
+            line-height: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button><i class="  fa fa-paperclip" aria-hidden="true" data-toggle="tooltip" data-placement="top"
+                title="Attach file"></i></button>
+    </div>
+    <!-- <button type="button" onclick="press()" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        Tooltip on top
+    </button> -->
+    <div class=" card1 card shadow p-0">
+        <div class="box1 card-body p-0">
+            <div>
+                <p class="p1">Your recent files</p>
+            </div>
+
+
+        </div>
+        <p class="p2">View all files</p>
+        <hr>
+
+        <div class="box2">
+
+            <p class="p2">Add your files from.....</p>
+            <div class="box4">
+                <button class="box3">
+                    <div>
+                        <i class=" icon ms-3 fab fa-google-drive "></i>
+                    </div>
+                    <div class=" icon product ms-4">
+                        Google Drive
+                    </div>
+                </button>
+            </div>
+            <div class="box4">
+                <button class="box3">
+                    <div>
+                        <i class=" ms-3 fas fa-tv "></i>
+                    </div>
+                    <div class=" product ms-4">
+                        Upload from your Computer
+                    </div>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script>
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
